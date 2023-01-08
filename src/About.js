@@ -3,7 +3,7 @@ import './App.css';
 import Dadu from './map.png';
 function About() {
     return (
-        <div className = "Cards">
+        <div className = "Cards" id = "about">
             <div className = "Cards-Row">
             <Card maxW='320px' margin = {'10px'}>
                 <CardBody className = 'Cards-white-bg'>

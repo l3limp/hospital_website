@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Locate from './Locate';
 import Landing from './Landing';
+import About from './About';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -30,9 +31,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element = {<App />}/>
-        <Route path="/home" element = {<Locate />}/>
+        <Route path="/about" element = {<About />}/>
         <Route path="/landing" element = {<Landing />}/>
-        <Route path="/contact" element = {<Locate />}/>
+        <Route path="/locate" element = {<Locate />}/>
       </Routes>
     </BrowserRouter>
   </ChakraProvider>

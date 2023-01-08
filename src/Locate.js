@@ -5,7 +5,7 @@ import { Button } from '@chakra-ui/react';
 
 function Locate() {
   return (
-    <div>
+    <div id = "locate">
       <header className="Locate-Header">
 
       <img src={Map} className="Map-Image" alt="logo"/>
