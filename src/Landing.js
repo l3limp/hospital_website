@@ -1,17 +1,17 @@
 import logo from './home_svg.svg';
 import './App.css';
 import NavBar from './Navbar';
-import { Button, Wrap, WrapItem } from '@chakra-ui/react';
+import { Button } from '@chakra-ui/react';
 
 import {useNavigate} from "react-router-dom";
 
-function App() {
+function Landing() {
   let history = useNavigate();
   
   return (
     
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header className="Landing-header">
         
         <div className='column'>
 
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default Landing;
