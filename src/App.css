@@ -145,7 +145,7 @@
   background-color: #A3CDD0;
   height: 80px;
   width: 100%;
-  font-size: 0.2vh + 5px;
+  font-size: calc(0.6vw + 8px);
   color: white;
   font-weight: bolder;
   display: flex;

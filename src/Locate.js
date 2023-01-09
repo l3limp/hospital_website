@@ -21,6 +21,22 @@ function Locate() {
             straight to us.
           </text>
 
+          <Button
+            maxWidth = '160px'
+            fontSize={'16px'}
+            bg={'blue.400'}
+            color={'white'}
+            _hover={{
+              bg:'#A3CDD0',
+            }}
+            marginTop = {'20px'}
+            onClick={()=>{
+              // history("/home");
+          }}>
+            Locate Us
+
+        </Button>
+
         </div>
 
       </header>

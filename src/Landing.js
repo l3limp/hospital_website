@@ -24,22 +24,25 @@ function Landing() {
             Come to <b>Kakar Hospital</b> for a quick checkup.
           </text>
 
+          <Button
+            maxWidth = '160px'
+            fontSize={'16px'}
+            bg={'blue.400'}
+            color={'white'}
+            _hover={{
+              bg:'#A3CDD0',
+            }}
+            marginTop = {'20px'}
+            onClick={()=>{
+              history("/home");
+          }}>
+            Locate Us
+
+        </Button>
+
         </div>
 
         <img src={logo} className="App-logo" alt="logo"/>
-        {/* <Button maxWidth = {'350px'}
-        fontSize={'2xl'}
-        bg={'orange.400'}
-        color={'white'}
-        _hover={{
-          bg:'blue.400',
-        }}
-        onClick={()=>{
-          // window.alert("🦊")
-          history("/home");
-        }}>
-
-        </Button> */}
       </header>
       
     </div>

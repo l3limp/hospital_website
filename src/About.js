@@ -84,7 +84,7 @@ function About() {
                 </div>
                 
                 <div>
-                    <Text>
+                    <Text maxW={'48vmin'}>
                         Kakar Hospital, Budhlada Road, Dera Surjanhar, Ratia, Haryana 125051
                     </Text>
                 </div>
