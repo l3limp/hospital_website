@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kakar-hospital/static/css/main.a7710ddd.css",
+    "main.js": "/kakar-hospital/static/js/main.81b9f70a.js",
+    "static/js/787.edd43247.chunk.js": "/kakar-hospital/static/js/787.edd43247.chunk.js",
+    "static/media/map.png": "/kakar-hospital/static/media/map.deed95bfdc9a4b1b77ba.png",
+    "static/media/home_svg.svg": "/kakar-hospital/static/media/home_svg.53268bd240b60adcf9e3be593cfc9eee.svg",
+    "index.html": "/kakar-hospital/index.html",
+    "main.a7710ddd.css.map": "/kakar-hospital/static/css/main.a7710ddd.css.map",
+    "main.81b9f70a.js.map": "/kakar-hospital/static/js/main.81b9f70a.js.map",
+    "787.edd43247.chunk.js.map": "/kakar-hospital/static/js/787.edd43247.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7710ddd.css",
+    "static/js/main.81b9f70a.js"
+  ]
+}
